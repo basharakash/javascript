@@ -10,6 +10,11 @@ module.exports = {
         path: path.resolve(__dirname, 'dist')
     },
     mode: 'development',
+    devServer: {
+        port: 2222,
+        open: true,
+        compress: true
+    },
     module: {
         rules: [
             {
